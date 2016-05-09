@@ -34,11 +34,13 @@ console.log(cube(3));
 
 function reverse(string) {
 	var reversed = "";
-	for (var i = string.length - 1; i > 0; i--) {
+	for (var i = string.length - 1; i => 0; i--) {
 		reversed += string[i];
 	}
 	return reversed;
 }
+
+console.log('Kevin');
 
 // write a function that takes in two arrays of the same length as parameters. From those two arrays,
 // create, then return an object which contains the elements of the first array as keys, and the
